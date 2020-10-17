@@ -3,4 +3,5 @@
   (lib (name random-keyboard-parts)(type Legacy)(uri "${KIPRJMOD}/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
   (lib (name Type-C)(type Legacy)(uri ${KIPRJMOD}/Type-C.pretty/Type-C.lib)(options "")(descr ""))
   (lib (name stupa_local_lib)(type Legacy)(uri ${KIPRJMOD}/stupa_local_lib.lib)(options "")(descr ""))
+  (lib (name YS-SK6812MINI-E)(type Legacy)(uri ${KIPRJMOD}/sk6812mini-e/YS-SK6812MINI-E.lib)(options "")(descr ""))
 )
