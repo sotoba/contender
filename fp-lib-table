@@ -4,4 +4,5 @@
   (lib (name Type-C)(type KiCad)(uri ${KIPRJMOD}/Type-C.pretty)(options "")(descr ""))
   (lib (name sk6812mini-e)(type KiCad)(uri ${KIPRJMOD}/sk6812mini-e)(options "")(descr ""))
   (lib (name keyboard_parts)(type KiCad)(uri ${KIPRJMOD}/keyboard_parts.pretty)(options "")(descr ""))
+  (lib (name contender)(type KiCad)(uri ${KIPRJMOD}/contender.pretty)(options "")(descr ""))
 )
