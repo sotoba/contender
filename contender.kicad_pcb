@@ -55,8 +55,8 @@
     (mod_edge_width 0.12)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 1.4 1.2)
-    (pad_drill 0)
+    (pad_size 5 5)
+    (pad_drill 4.8)
     (pad_to_mask_clearance 0.1)
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
@@ -82,7 +82,7 @@
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
-      (outputformat 2)
+      (outputformat 1)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
@@ -665,7 +665,7 @@
       (xy 7.853993 1.273886) (xy 7.942822 1.284256) (xy 8.02074 1.28697) (xy 8.059583 1.28479)) (layer B.SilkS) (width 0.01))
   )
 
-  (module keyboard_parts:HOLE_M3 (layer F.Cu) (tedit 5F9AD694) (tstamp 5FA93F30)
+  (module keyboard_parts:HOLE_M3 (layer F.Cu) (tedit 5FA94AC2) (tstamp 5FA93F30)
     (at 25.654 147.447)
     (fp_text reference HOLE_M3 (at 0 -4.5) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)))
@@ -673,10 +673,10 @@
     (fp_text value VAL** (at 0.05 -7.25) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 5 5) (drill 4.8) (layers *.Cu *.Mask F.SilkS))
+    (pad "" thru_hole circle (at 0 0) (size 5 5) (drill 4.8) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module keyboard_parts:HOLE_M3 (layer F.Cu) (tedit 5F9AD694) (tstamp 5F9AE619)
+  (module keyboard_parts:HOLE_M3 (layer F.Cu) (tedit 5FA94AC9) (tstamp 5F9AE619)
     (at 25.781 46.863)
     (fp_text reference HOLE_M3 (at 0 -4.5) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)))
@@ -684,10 +684,10 @@
     (fp_text value VAL** (at 0.05 -7.25) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 5 5) (drill 4.8) (layers *.Cu *.Mask F.SilkS))
+    (pad "" thru_hole circle (at 0 0) (size 5 5) (drill 4.8) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module keyboard_parts:HOLE_M3 (layer F.Cu) (tedit 5F9AD694) (tstamp 5F9AE609)
+  (module keyboard_parts:HOLE_M3 (layer F.Cu) (tedit 5FA94AAE) (tstamp 5F9AE609)
     (at 48.006 22.479)
     (fp_text reference HOLE_M3 (at 0 -4.5) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)))
@@ -695,10 +695,10 @@
     (fp_text value VAL** (at 0.05 -7.25) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 5 5) (drill 4.8) (layers *.Cu *.Mask F.SilkS))
+    (pad "" thru_hole circle (at 0 0) (size 5 5) (drill 4.8) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module keyboard_parts:HOLE_M3 (layer F.Cu) (tedit 5F9AD694) (tstamp 5FA14D99)
+  (module keyboard_parts:HOLE_M3 (layer F.Cu) (tedit 5FA94AB3) (tstamp 5FA14D99)
     (at 124.714 22.733)
     (fp_text reference HOLE_M3 (at 0 -4.5) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)))
@@ -706,10 +706,10 @@
     (fp_text value VAL** (at 0.05 -7.25) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 5 5) (drill 4.8) (layers *.Cu *.Mask F.SilkS))
+    (pad "" thru_hole circle (at 0 0) (size 5 5) (drill 4.8) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module keyboard_parts:HOLE_M3 (layer F.Cu) (tedit 5F9AD694) (tstamp 5FA94594)
+  (module keyboard_parts:HOLE_M3 (layer F.Cu) (tedit 5FA94ABA) (tstamp 5FA94594)
     (at 124.714 147.447)
     (fp_text reference HOLE_M3 (at 0 -4.5) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)))
@@ -717,7 +717,7 @@
     (fp_text value VAL** (at 0.05 -7.25) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 5 5) (drill 4.8) (layers *.Cu *.Mask F.SilkS))
+    (pad "" thru_hole circle (at 0 0) (size 5 5) (drill 4.8) (layers *.Cu *.Mask F.SilkS))
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5F88ABBB)
@@ -1133,9 +1133,9 @@
     (fp_text user %R (at 0 0) (layer B.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
     )
-    (pad 2 smd roundrect (at 0.9125 0) (size 1.025 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.2439014634146341)
+    (pad 2 smd roundrect (at 0.9125 0) (size 1.025 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.2439004878048781)
       (net 85 "Net-(R6-Pad2)"))
-    (pad 1 smd roundrect (at -0.9125 0) (size 1.025 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.2439014634146341)
+    (pad 1 smd roundrect (at -0.9125 0) (size 1.025 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.2439004878048781)
       (net 1 GND))
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl
       (at (xyz 0 0 0))
@@ -1169,9 +1169,9 @@
     (fp_text user %R (at 0 0 90) (layer B.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
     )
-    (pad 2 smd roundrect (at 0.9125 0 270) (size 1.025 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.2439014634146341)
+    (pad 2 smd roundrect (at 0.9125 0 270) (size 1.025 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.2439004878048781)
       (net 83 D+))
-    (pad 1 smd roundrect (at -0.9125 0 270) (size 1.025 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.2439014634146341)
+    (pad 1 smd roundrect (at -0.9125 0 270) (size 1.025 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.2439004878048781)
       (net 84 "Net-(R5-Pad1)"))
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl
       (at (xyz 0 0 0))
@@ -1205,9 +1205,9 @@
     (fp_text user %R (at 0 0 270) (layer B.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
     )
-    (pad 2 smd roundrect (at 0.9125 0 90) (size 1.025 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.2439014634146341)
+    (pad 2 smd roundrect (at 0.9125 0 90) (size 1.025 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.2439004878048781)
       (net 81 "Net-(R4-Pad2)"))
-    (pad 1 smd roundrect (at -0.9125 0 90) (size 1.025 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.2439014634146341)
+    (pad 1 smd roundrect (at -0.9125 0 90) (size 1.025 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.2439004878048781)
       (net 82 D-))
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl
       (at (xyz 0 0 0))
@@ -1241,9 +1241,9 @@
     (fp_text user %R (at 0 0 90) (layer B.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
     )
-    (pad 2 smd roundrect (at 0.9125 0 270) (size 1.025 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.2439014634146341)
+    (pad 2 smd roundrect (at 0.9125 0 270) (size 1.025 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.2439004878048781)
       (net 1 GND))
-    (pad 1 smd roundrect (at -0.9125 0 270) (size 1.025 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.2439014634146341)
+    (pad 1 smd roundrect (at -0.9125 0 270) (size 1.025 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.2439004878048781)
       (net 80 "Net-(R3-Pad1)"))
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl
       (at (xyz 0 0 0))
@@ -1277,9 +1277,9 @@
     (fp_text user %R (at 0 0 90) (layer B.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
     )
-    (pad 2 smd roundrect (at 0.9125 0 270) (size 1.025 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.2439014634146341)
+    (pad 2 smd roundrect (at 0.9125 0 270) (size 1.025 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.2439004878048781)
       (net 1 GND))
-    (pad 1 smd roundrect (at -0.9125 0 270) (size 1.025 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.2439014634146341)
+    (pad 1 smd roundrect (at -0.9125 0 270) (size 1.025 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.2439004878048781)
       (net 79 "Net-(R2-Pad1)"))
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl
       (at (xyz 0 0 0))
@@ -1313,9 +1313,9 @@
     (fp_text user %R (at 0 0 90) (layer B.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
     )
-    (pad 2 smd roundrect (at 0.9125 0 90) (size 1.025 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.2439014634146341)
+    (pad 2 smd roundrect (at 0.9125 0 90) (size 1.025 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.2439004878048781)
       (net 78 "Net-(R1-Pad2)"))
-    (pad 1 smd roundrect (at -0.9125 0 90) (size 1.025 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.2439014634146341)
+    (pad 1 smd roundrect (at -0.9125 0 90) (size 1.025 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.2439004878048781)
       (net 4 +5V))
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl
       (at (xyz 0 0 0))
@@ -6333,7 +6333,7 @@
   )
 
   (dimension 130.950242 (width 0.12) (layer Dwgs.User) (tstamp 5FA94630)
-    (gr_text "130.950 mm" (at 129.349495 85.016586 -89.83329758) (layer Dwgs.User) (tstamp 5FA94631)
+    (gr_text "130.950 mm" (at 129.349495 85.016586 -89.83329758) (layer Dwgs.User) (tstamp 5FA94630)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (feature1 (pts (xy 123.571005 19.558) (xy 128.475418 19.543731)))
@@ -8720,7 +8720,7 @@
   (segment (start 45.50556 71.58628) (end 45.51172 71.59244) (width 0.254) (layer B.Cu) (net 85))
   (segment (start 45.50556 71.41688) (end 45.50556 71.58628) (width 0.254) (layer B.Cu) (net 85))
 
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5FA2A4C9) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5FA952A0) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -8774,7 +8774,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5FA2A4C6) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5FA9529D) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -8784,7 +8784,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5FA2A4C3) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5FA9529A) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -8831,7 +8831,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5FA2A4C0) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5FA95297) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
