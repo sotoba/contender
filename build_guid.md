@@ -9,9 +9,11 @@
 |トッププレートB(FR4)|1|
 |ミドルプレート(アクリル マットクリア 5mm)|1|
 |ボトムプレート(アクリル グレースモーク 3mm)|1|
+|フットプレートA(アクリル グレースモーク 3mm)|2|
+|フットプレートB(アクリル グレースモーク 3mm)|1|
 |スペーサー(M2 6mm)|5|
 |ネジ(M2 4mm)|5|
-|ネジ(M2 10mm)|5|
+|ネジ(M2 10mm)|8|
 |スイッチ用ソケット(Kailh PCB Socket)|26|
 |ゴム足(小)|4|
 |ゴム足(大)|2|
@@ -29,12 +31,12 @@
 |CherryMX互換キースイッチ|26|
 |CherryMX対応キーキャップ(1u)|25|
 |CherryMX対応キーキャップ(2u)|1|
-|CherryMX対応スタビライザー(2u)|1|
+|CherryMX対応スタビライザー(2u/PCB取り付けタイプ)|1|
 |USB Type-Cケーブル|1|
 
 __部品外観図(Torch Edition)__
 
-<img src="https://github.com/sotoba/craftwalk/blob/images/craftwalk_parts.jpg" width="860">
+<img src="https://github.com/sotoba/contender/blob/images/contender_parts.jpg" width="860">
 
 ## QMKセットアップ
 
@@ -57,13 +59,13 @@ https://docs.qmk.fm/#/ja/newbs
 
 __裏面__
 
-<img src="https://github.com/sotoba/craftwalk/blob/images/craftwalk_top_view.jpg" width="860">
+<img src="https://github.com/sotoba/contender/blob/images/contender_top_view.jpg" width="860">
 
 ### スイッチ用ソケット
 
 PCB裏面の `MX1~MX26` の記号シルクが印刷されている箇所に、スイッチ用ソケットを半田付けします。
 
-<img src="https://github.com/sotoba/craftwalk/blob/images/craftwalk_socket_position.jpg" width="480">
+<img src="https://github.com/sotoba/contender/blob/images/contender_socket_position.jpg" width="480">
 
 半田付けが難しい場合、PCB表面からソケットにスイッチを差し込むことでソケットを固定した状態で半田付けすることができます。
 
@@ -73,12 +75,12 @@ PCB裏面のスイッチホール下およびPCB内の各所に存在するLED�
 LEDには極性があるため、LED側面の4つのタブのうち、角が欠けているものがLED用ノンスルーホールの左下のシルクと一致するよう配置して下さい。  
 すべてのLEDの表面がPCB表面を向くよう配置します。
 
-<img src="https://github.com/sotoba/craftwalk/blob/images/craftwalk_backlight.jpg" width="480">
+<img src="https://github.com/sotoba/contender/blob/images/contender_backlight.jpg" width="480">
 
 ここまでの作業が完了すると、PCB裏面は以下のような状態になっているはずです。  
 LEDを取り付ける場合は、スイッチホール以外の箇所の実装漏れがないか十分確認してください。
 
-<img src="https://github.com/sotoba/craftwalk/blob/images/craftwalk_solderd.jpg" width="860">
+<img src="https://github.com/sotoba/contender/blob/images/contender_solderd.jpg" width="860">
 
 ## ファームウェア書き込み
 
@@ -94,7 +96,7 @@ PCBのUSB Type-CコネクタとPCをUSBケーブルで接続し、GUI(`QMK Toolb
 
 ファームウェアはQMK Configuratorから生成することができます。
 
-https://config.qmk.fm/#/craftwalk/LAYOUT
+https://config.qmk.fm/#/contender/LAYOUT
 
 ファームウェアのコンパイルおよびダウンロード後、QMK Toolboxへロードして書き込みを実行してください。  
 なお、書き込みの際はMCUに `atmega32u2` を指定してください。
@@ -125,19 +127,34 @@ $ qmk flash -kb contender -km default -bl avrdude
 
 ### トッププレート&ミドルプレート取り付け
 
-トッププレートA/トッププレートB/ミドルプレート/PCBの順で重ね合わせて、以下のようにトッププレートから10mmのネジ、PCB裏面から6mmのスペーサーで固定してください。
+トッププレートA/トッププレートB/ミドルプレートの順で重ね合わせて、以下のようにトッププレートから10mmのネジ、ミドルプレートから6mmのスペーサーで固定してください。
 
-<img src="https://github.com/sotoba/craftwalk/blob/images/craftwalk_top_plate.jpg" width="860">
-<img src="https://github.com/sotoba/craftwalk/blob/images/craftwalk_back_view.jpg" width="860">
+<img src="https://github.com/sotoba/contender/blob/images/contender_top_plate.jpg" width="860">
+<img src="https://github.com/sotoba/contender/blob/images/contender_back_view.jpg" width="860">
+
+### 2uスタビライザー取り付け
+
+PCB表面右下の2uスペースにスタビライザーを取り付けます。PCBの内側、穴の大きい方にワイヤーがセットされるよう取り付けてください。
+
+<img src="https://github.com/sotoba/contender/blob/images/contender_back_view.jpg" width="860">
+
+### キースイッチ取り付け
+
+お好みのキースイッチをトッププレート側から取り付けてください。
 
 ### ボトムプレート取り付け
 
-PCB裏面にボトムプレートを取り付け、6mmのネジで固定してください。
+PCB裏面にボトムプレートを取り付け、4mmのネジで固定してください。
 
-### キースイッチ&キーキャップ取り付け
+### (Option)フットプレート取り付け
 
-お好みのキースイッチ、キーキャップをPCB表面から取り付けてください。
+キーボードを傾斜させたい場合は、ボトムプレート上部の4mmネジを取り外してからフットプレートA(x2)およびフットプレートBを取り付けて、10mmのネジで固定してください。 
+フットプレートを取り付けた場合、打鍵時にガタつきが発生してしまうため必ず後述のゴム足を取り付けてください。
 
 ### (Option)ゴム足取り付け
 
 ボトムプレートのお好みの位置にゴム足を取り付けてください。取り付け位置によっては打鍵時に基板が傾き不安定になってしまう可能性があるため、取り付け前にゴム足を台紙から剥がさず台紙をカットして、安定して打鍵できるゴム足の配置決めをしてから取り付けてください。
+
+### キーキャップ取り付け
+
+お好みのキーキャップをキースイッチに取り付けてください。
